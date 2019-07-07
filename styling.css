@@ -1,0 +1,162 @@
+body {
+    font: sans-serif;
+}
+
+#container {
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#brand {
+    float: left
+}
+
+h1, a{
+    font-size: 40px;
+    font-weight:200;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+#searchBox {
+    float: right;
+    background: linear-gradient(yellow,lightgreen);
+    height: 50px;
+    width: 400px;
+    padding: 10px 20px 0px 20px;
+    margin-top: 18px;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+    color: orange;
+    background: white url(Images/SearchIcon.png)  no-repeat 188px;
+    border: 1px solid black;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: darkgoldenrod;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu{
+    height: 80px;
+    background: linear-gradient(yellow, lightgreen);
+    padding: 7px 0px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 32px;
+    border-right: 1px solid blue;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: purple;
+    line-height: 40px;
+    transition: font-size 0.3s linear;
+    -webkit-transition: font-size 0.3s linear;
+    -moss-webkit-transition: font-size 0.3s linear;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: coral
+}
+
+#introduction {
+    background: linear-gradient(yellow, lightgreen);
+    padding: 40px;
+    margin: 15px 0px;
+    border-radius: 10px;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    color: forestgreen;
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 30px;
+    color: darkseagreen;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 400px;
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: orange;
+    font-size: 30px;
+    
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar ul li a:hover{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+#leftsidebar ul {
+    padding-top: 10px;
+}
+
+#leftsidebar ul li {
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(Images/arrow.png);
+}
+
+#rightsidebar ul li {
+    padding-bottom: 6px;
+    list-style-image: url(Images/checkmark.png);
+}
+
+.footer {
+    height: 60px;
+    background: linear-gradient(yellow, lightgreen);
+    border-radius: 20px;
+}

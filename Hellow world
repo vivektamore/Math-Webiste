@@ -1,0 +1,8 @@
+#include <iostream>
+Using namespace std; 
+int main(){
+int a=4,b=6;
+Cout<<"the sum of the value of a and b"<<a+b;
+
+Return 0;
+}
